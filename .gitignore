@@ -1,2 +1,4 @@
 .*
+letsencrypt/etc
+letsencrypt/var
 !/.gitignore
