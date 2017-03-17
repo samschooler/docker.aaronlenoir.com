@@ -1,4 +1,5 @@
 .*
 letsencrypt/etc
 letsencrypt/var
+blog/mysql/data
 !/.gitignore
