@@ -3,29 +3,12 @@ var path = require('path'),
 
 config = {
     production: {
-        url: 'https://my-ghost-blog.com',
-        mail: {},
-        database: {
-            client: 'sqlite3',
-            connection: {
-                filename: path.join(process.env.GHOST_CONTENT, '/data/ghost.db')
-            },
-            debug: false
-        },
-
-        server: {
-            host: '0.0.0.0',
-            port: '2368'
-        }
-    },
-
-    development: {
         url: 'http://{HOSTNAME}',
-
+        mail: {},
         database: {
             client: 'mysql',
             connection: {
-                host: 'mysql01',
+                host: 'mysql',
                 user: 'ghost',
                 password: '{PASSWORD}',
                 database: 'ghost_db',
@@ -33,11 +16,16 @@ config = {
             },
             debug: false
         },
+
         server: {
             host: '0.0.0.0',
             port: '2368'
-        }
-    },
+        },
+
+	paths: {
+		contentPath: path.join(process.env.GHOST_CONTENT, '/')
+	}
+    }
 };
 
 module.exports = config;
