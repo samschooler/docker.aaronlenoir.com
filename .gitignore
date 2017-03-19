@@ -5,4 +5,5 @@ blog/mysql/data
 blog/ghost/data
 blog/ghost/config/config.js
 blog/ghost/config/create_db.sql
+goaccess
 !/.gitignore
