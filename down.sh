@@ -7,5 +7,4 @@ cd ../mysql
 ./down.sh
 cd ../..
 ./nginx/down.sh
-./news-reader/down.sh
 cd ../..
