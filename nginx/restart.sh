@@ -1,3 +1,3 @@
 #!/bin/bash
-./down.sh
-./up.sh
+$PWD/nginx/down.sh
+$PWD/nginx/up.sh

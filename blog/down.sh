@@ -1,3 +1,3 @@
 #!/bin/bash
-. ./scripts/settings.sh
+. $PWD/blog/scripts/settings.sh
 docker stop $container_name
