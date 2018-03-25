@@ -1,5 +1,5 @@
 #!/bin/sh
 
 container_name=ghost
-hostname=blog.aaronlenoir.com
+hostname=sam.ink
 mysql_container_name=mysql_blog
